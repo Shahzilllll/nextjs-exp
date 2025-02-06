@@ -5,18 +5,18 @@ const JoinUs = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white p-4">
       <div className="w-full max-w-sm text-center">
-        {/* Nike Logo */}
+      
         <div className="flex justify-center mb-4">
           <Image
-            src="/img/nike.png" // Ensure file is in `/public/img/nike.png`
+            src="/img/nike.png"
             alt="Nike Logo"
             width={50}
             height={50}
-            priority // Helps with hydration mismatch
+            priority 
           />
         </div>
 
-        {/* Heading */}
+   
         <h2 className="text-lg font-bold tracking-wide text-black helvetica-neue">
           BECOME A NIKE MEMBER
         </h2>
@@ -25,7 +25,6 @@ const JoinUs = () => {
           products, inspiration, and community.
         </p>
 
-        {/* Form */}
         <form className="space-y-4 helvetica-neue">
           <input
             type="email"
@@ -60,7 +59,7 @@ const JoinUs = () => {
             Get a Nike Member Reward every year on your Birthday.
           </p>
 
-          {/* Country Select */}
+         
           <select className="w-full px-4 py-3 border border-gray-400 rounded-md text-sm outline-none text-black">
             <option value="IN">India</option>
             <option value="US">United States</option>
@@ -70,7 +69,6 @@ const JoinUs = () => {
             <option value="CA">Canada</option>
           </select>
 
-          {/* Gender Selection */}
           <div className="flex space-x-4">
             <button
               type="button"
@@ -86,20 +84,18 @@ const JoinUs = () => {
             </button>
           </div>
 
-          {/* Newsletter Checkbox */}
           <div className="flex items-center text-sm text-gray-800">
             <input type="checkbox" className="mr-2" />
             <span>Sign up for emails to get updates from Nike on products, offers, and Member benefits.</span>
           </div>
 
-          {/* Disclaimer */}
+        
           <p className="mt-2 text-xs text-gray-800">
             By creating an account, you agree to Nike's{" "}
             <a href="#" className="underline text-black">Privacy Policy</a> and{" "}
             <a href="#" className="underline text-black">Terms of Use</a>.
           </p>
 
-          {/* Join Button */}
           <button className="w-full bg-black text-white py-3 rounded-md font-semibold mt-4">
             JOIN US
           </button>

@@ -10,7 +10,7 @@ import { FaThumbsUp, FaThumbsDown } from "react-icons/fa";
 const HelpPage = () => {
   return (
     <div className="min-h-screen bg-white text-black p-8">
-      {/* Search Bar */}
+   
       <div className="text-center mb-8 border-b pb-4">
         <h1 className="text-xl font-bold tracking-wide helvetica-neue">
           GET HELP
@@ -26,9 +26,9 @@ const HelpPage = () => {
         </div>
       </div>
 
-      {/* Main Content */}
+      
       <div className="grid md:grid-cols-3 gap-8">
-        {/* FAQ Section */}
+
         <div className="md:col-span-2">
           <h2 className="text-xl font-bold mb-4 helvetica-neue">
             WHAT PAYMENT OPTIONS CAN I USE ON NIKE ORDERS?
@@ -60,7 +60,7 @@ const HelpPage = () => {
             today.
           </p>
 
-          {/* Buttons */}
+      
           <div className="flex space-x-4 mb-6">
             <Link href="/joinus">
               <button className="px-6 py-2 text-sm font-bold text-white bg-black rounded-full hover:bg-gray-950">
@@ -72,7 +72,7 @@ const HelpPage = () => {
               SHOP NIKE
             </button>
           </div>
-          {/* FAQs */}
+       
           <h3 className="text-md font-bold mb-2 helvetica-neue">FAQs</h3>
           <div className="text-sm text-gray-700 space-y-4">
             <div>
@@ -152,11 +152,10 @@ const HelpPage = () => {
           </div>
         </div>
 
-        {/* Contact Section */}
+      
         <div className="border-l pl-6">
           <h3 className="text-md font-bold mb-6 text-center">CONTACT US</h3>
 
-          {/* Phone */}
           <div className="flex flex-col items-center mb-8">
             <FaMobileScreenButton className="text-5xl mb-2" />
             <p className="text-center text-sm text-gray-700">
@@ -165,7 +164,7 @@ const HelpPage = () => {
             </p>
           </div>
 
-          {/* Message */}
+        
           <div className="flex flex-col items-center mb-8">
             <RiMessage2Fill className="text-5xl mb-2" />
             <p className="text-center text-sm text-gray-700">
@@ -173,7 +172,6 @@ const HelpPage = () => {
             </p>
           </div>
 
-          {/* Email */}
           <div className="flex flex-col items-center mb-8">
             <FaEnvelope className="text-5xl mb-2" />
             <p className="text-center text-sm text-gray-700">
@@ -181,7 +179,7 @@ const HelpPage = () => {
             </p>
           </div>
 
-          {/* Store Locator */}
+    
           <div className="flex flex-col items-center">
             <ImLocation2 className="text-5xl mb-2" />
             <p className="text-center text-sm text-gray-700">
@@ -191,7 +189,7 @@ const HelpPage = () => {
           </div>
         </div>
 
-        {/* Feedback Section */}
+      
         <div className="mt-6">
           <p className="text-sm font-medium">Was this answer helpful?</p>
           <div className="flex space-x-4 mt-2">

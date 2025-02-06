@@ -5,16 +5,16 @@ const Signup = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white p-4">
       <div className="w-full max-w-sm text-center">
-        {/* Nike Logo */}
+        
         <div className="flex justify-center mb-4">
           <Image src="/img/nike.png" alt="Nike Logo" width={50} height={50} />
         </div>
 
-        {/* Heading */}
+      
         <h2 className="text-lg font-bold tracking-wide text-black helvetica-neue">YOUR ACCOUNT</h2>
         <h2 className="text-lg font-bold tracking-wide mb-6  text-black helvetica-neue">FOR EVERYTHING NIKE</h2>
 
-        {/* Form */}
+
         <form className="space-y-4">
           <input
             type="email"
@@ -40,7 +40,6 @@ const Signup = () => {
           </button>
         </form>
 
-        {/* Disclaimer */}
         <p className="mt-4 text-xs text-gray-600   helvetica-neue">
           By logging in, you agree to Nike's{" "}
           <a href="#" className="underline   helvetica-neue hover:text-gray-800">Privacy Policy</a> and{" "}

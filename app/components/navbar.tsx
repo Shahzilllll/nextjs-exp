@@ -8,7 +8,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      {/* Navbar Below Superheader */}
+     
       <header className="fixed top-[36px] left-0 w-full bg-white shadow-md z-50">
         <div className="container mx-auto flex flex-wrap items-center justify-between p-5">
           {/* Logo */}
@@ -20,7 +20,6 @@ const Navbar = () => {
             />
           </Link>
 
-          {/* Navigation Links */}
           <nav className="hidden md:flex space-x-6 text-black font-medium helvetica-neue">
             <a href="#" className="hover:text-gray-600 transition-colors duration-200">New & Featured</a>
             <a href="#" className="hover:text-gray-600 transition-colors duration-200">Men</a>
@@ -30,9 +29,9 @@ const Navbar = () => {
             <a href="#" className="hover:text-gray-600 transition-colors duration-200">SNKRS</a>
           </nav>
 
-          {/* Right Side (Search Bar & Icons) */}
+         
           <div className="flex items-center space-x-6">
-            {/* Search Bar */}
+          
             <div className="relative flex items-center bg-gray-300 rounded-full px-3 py-2 w-64">
               <input
                 type="text"
@@ -42,7 +41,7 @@ const Navbar = () => {
               <HiMiniMagnifyingGlass className="text-black size-6 cursor-pointer hover:text-gray-600 transition-colors duration-200" />
             </div>
 
-            {/* Icons */}
+         
             <FiHeart className="text-black size-6 cursor-pointer hover:text-gray-600 transition-colors duration-200" />
             <Link href="/cart">
               <IoBagOutline className="text-black size-6 cursor-pointer hover:text-gray-600 transition-colors duration-200" />
@@ -51,7 +50,6 @@ const Navbar = () => {
         </div>
       </header>
 
-      {/* Push Content Down (Superheader + Navbar height) */}
       <div className="pt-[116px]"></div>
     </>
   );
